@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "PJ11: Train", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["-m", "digit_classifier.train"], "problemMatcher": []},
+    {"label": "PJ11: Tests", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["-m", "pytest", "-q"], "problemMatcher": []}
+  ]
+}
